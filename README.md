@@ -1,2 +1,2 @@
 # football-player-app
-Aplikasi web untuk melakukan pencarian profil pemain bola seluruh dunia.
+Web untuk melakukan pencarian dan menampilkan profil pemain bola seluruh dunia.
