@@ -1,0 +1,30 @@
+{
+    "name": "footballplayer-apps",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --config webpack.prod.js",
+        "start-dev": "webpack serve --config webpack.dev.js"
+    },
+    "author": "ardi saputra",
+    "license": "ISC",
+    "dependencies": {
+        "materialize-css": "^1.0.0-rc.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.15.0",
+        "@babel/preset-env": "^7.15.0",
+        "babel-loader": "^8.2.2",
+        "css-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.3.2",
+        "mini-css-extract-plugin": "^2.2.0",
+        "optimize-css-assets-webpack-plugin": "^6.0.1",
+        "style-loader": "^3.2.1",
+        "terser-webpack-plugin": "^5.1.4",
+        "webpack": "^5.51.1",
+        "webpack-cli": "^4.8.0",
+        "webpack-dev-server": "^4.0.0",
+        "webpack-merge": "^5.8.0"
+    }
+}
