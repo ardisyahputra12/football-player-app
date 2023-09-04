@@ -3,7 +3,7 @@ import "../components/search-player.js";
 
 class Data {
     static searchPlayer(keyword) {
-        return fetch(`https://www.thesportsdb.com/api/v1/json/2/searchplayers.php?p=${keyword}`)
+        return fetch(`https://www.thesportsdb.com/api/v1/json/3/searchplayers.php?p=${keyword}`)
             .then(response => {
                 return response.json();
             })
